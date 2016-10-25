@@ -23,15 +23,13 @@ Enable the mode by adding:
 (add-hook 'reason-mode-hook (lambda ()
    (add-hook 'before-save-hook 'refmt-before-save)))
 ```
-In your yarn project, add the following dependencies to package.json:
+In your yarn project, add the `reason-ide-toolkit` as a dependency to package.json:
 ```
 {
   "dependencies": {
-    "@opam-alpha/merlin": "*",
-    "@opam-alpha/tuareg": "*",
+     ...
     "yarnmerlin": "*",
-    "dependency-env": "https://github.com/npm-ml/dependency-env.git",
-    "reason": "*"
+     ...
   }
 }
 ```
