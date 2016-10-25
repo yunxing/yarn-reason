@@ -1,6 +1,6 @@
 ## Description:
 
-This is a Emacs mode to be used with reason/ocaml projects installed with yarn. For example, checkout https://github.com/reasonml/ExampleProject.
+This is a Emacs mode to be used with reason/ocaml projects installed with yarn/npm. For example, checkout https://github.com/reasonml/ExampleProject.
 
 It automatically searches the sandbox where all your dependencies are installed,
 and picks up the installed version of:
