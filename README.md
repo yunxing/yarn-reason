@@ -28,7 +28,7 @@ In your yarn project, add the `reason-ide-toolkit` as a dependency to package.js
 {
   "dependencies": {
      ...
-    "yarnmerlin": "*",
+    "reason-ide-toolkit": "*",
      ...
   }
 }
