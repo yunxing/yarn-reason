@@ -36,4 +36,5 @@ In your yarn project, add the following dependencies to package.json:
 }
 ```
 and run "yarn install --flat"
+
 Open any .ml or .re file inside that project, and you will have the full functionality enabled
