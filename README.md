@@ -14,7 +14,7 @@ To get this mode to work, copy this file to the local `site-lisp` directory.
 If you don't have permission to it, add it to a local directory and add the
 following line to your `.emacs`:
 ```
-(add-to-list 'load-path "DIR")
+(add-to-list 'load-path "<DIR-TO-THE-FILE>")
 ```
 Enable the mode by adding:
 ```
