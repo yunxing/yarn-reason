@@ -69,7 +69,7 @@
             (string= (file-name-extension buffer-file-name) "mli")
             )
     (let* ((root (find-project-root default-directory))
-           (tuaregpath (concat root "node_modules/tuareg-actual/")))
+           (tuaregpath (concat root "node_modules/tuareg/")))
       (if (file-exists-p tuaregpath)
           (progn
             (add-to-list 'load-path tuaregpath)
